@@ -1,7 +1,7 @@
 # No_Teacher_Tic_Tac_Toe_Learner
 A self learning Tic-Tac-Toe Learner algorithm (learning from their own experience)
 
-### Learning task: The learner should learn to play the game of Tic Tac Toe with the “User”. The goal of the learner is to win or at least draw the games played. The exact type of knowledge to be learned in our case is a function that chooses the best move for any board state (given, it falls under legal moves). Now, to design a learning system, we need to choose a type of training experience from which our system will learn.
+#### `Learning task: The learner should learn to play the game of Tic Tac Toe with the “User”. The goal of the learner is to win or at least draw the games played. The exact type of knowledge to be learned in our case is a function that chooses the best move for any board state (given, it falls under legal moves). Now, to design a learning system, we need to choose a type of training experience from which our system will learn.`
 `There are two modes:`
 1) **Teacher mode:** In our approach, we use data samples containing the sequence of board states of each game and their corresponding assigned value (based on whether the game ended in a win, loss, or draw). The learning will rely on this external source of knowledge and will be only as good as the teacher is (in our case, the training samples from the games played in the past).
 2) **No teacher mode:** The learner has complete control on board state choosing. It generates its own data by playing against itself and based on these will improve its game. For example, experimenting with novel board states that it had never considered playing and improving its skills.
